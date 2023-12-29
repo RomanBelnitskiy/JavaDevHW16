@@ -14,4 +14,10 @@ class CalculatorTest {
         assertEquals(4, result);
     }
 
+    @Test
+    void mul_TwoNumbers_Test() {
+        int result = calc.mul(2, 2);
+
+        assertEquals(4, result);
+    }
 }
