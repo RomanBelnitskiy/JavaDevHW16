@@ -20,4 +20,11 @@ class CalculatorTest {
 
         assertEquals(4, result);
     }
+
+    @Test
+    void sub_TwoNumbers_Test() {
+        int result = calc.sub(5, 2);
+
+        assertEquals(3, result);
+    }
 }
